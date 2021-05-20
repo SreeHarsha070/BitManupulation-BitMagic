@@ -7,7 +7,7 @@ int main()
 	cin>>num;
 	cin>>k;
 	int count=0;
-	if (num &( (k-1)<<1))
+	if (num &( 1<<(k-1)))
         cout << "SET";
     else
         cout << "NOT SET";
